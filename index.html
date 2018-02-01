@@ -1,53 +1,28 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>How to study (M)</title>
-    <meta charset = "utf-8">
-  </head>
-  <body>
-    <header>
-      <h1><a href = "index.html" title = "공부해!">Study Math!</a></h1>
-    </header>
-    <nav>
-      <ol>
-        <li><a href = "1.html">뭘 사야 할까...</a></li>
-        <li><a href = "2.html">한 권만 풀어? 미쳤어?</a></li>
-        <li><a href = "3.html">개념을 공부하셨나요?</a></li>
-        <li><a href = "4.html">죽기 싫으면 문풀 보지마.</a></li>
-        <li><a href = "5.html">문제집 다 끝났다!</a></li>
-        <li><a href = "6.html">계획을 달성하려면...</a></li>
-      </ol>
-    </nav>
-    <article>
-      <h2>환영합니다!</h2>
-      <p>
-        이 웹사이트는 이 웹사이트를 만든 제작자가 운영하는 네이버 블로그에서 자신이 쓴 글을 이쁘장하게 정리한 정보를 담았습니다. <u>'수학을 어떻게 공부하느냐'</u>라는 주제를 가지고 설명하니까 잘 들어 주세요~
-      </p>
-      <a href = "https://blog.naver.com/happybox2" target = "_blank"><img src = "blog.JPG" title = "블로그" width = "25%"></a>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/aLC7Kmubw0Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      <p>
-        생활코딩 홈페이지로 이동하려면 <strong><a href = "https://opentutorials.org/course/1" target = "_blank" title = "생활코딩">여기</a></strong>를 클릭해 주세요!
-      </p>
-      <div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://how-to-study-m.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </article>
-  </body>
+<html lang = "ko"> <!--html언어가 쓰일 것이라는 것을 알려줌. / 주언어 지정-->
+<head>
+  <base target = "_blank">
+  <!--target 말고도 href도 가능. (그런데 쓸데가 없어서...)
+      base는 기본적으로 링크를 걸 때 속성을 적용한다. / _blank는 새 탭-->
+  <meta charset = "utf-8"> <!--문자 인코딩을 유니코드로 지정-->
+  <meta name = "viewport"
+        content = "width = device-width, minimum - scale = 1, initial-scale = 1, maximum-scale = 2">
+  <!--웹페이지에서 볼 수 있는 공간을 조절 / 너비는 장치의 너비대로 / 처음의 줌 정도는 1, 최소 1 최대 2 /
+      height도 width처럼 적용 가능, device-width = (숫자) 꼴로 대체 가능-->
+  <meta http-equiv = "X-UA-Compadtible" content = "IE = edge">
+  <!--X-UA-Compadtible을 추가해서 IE 버전을 지정하게 했다. / Internet Explorer의 최신 버전
+      (X-UA-Compatible으로써 문서 호환성 개념이 도입된다.)-->
+  <meta http-equiv = "refresh" content = "5;url = Home.html">
+  <title>Loading...</title>
+</head>
+<body>
+  <header>
+    <h2>환영합니다!</h2> <!--hn을 이용해서 제목을 나타냄.-->
+  </header>
+  <article> <!--내용-->
+    <p>5초 뒤에 본 페이지로 이동합니다.</p> <!--p는 단락을 뜻함.-->
+    <p>생활코딩 홈페이지로 이동하려면 <a href = "http://opentutorials.org/course/1">여기</a>
+      를 클릭하세요.</p> <!--a는 링크를 뜻함. / href 속성을 통해서 링크를 알려줌.-->
+  </article>
+</body>
 </html>

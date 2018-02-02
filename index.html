@@ -14,6 +14,15 @@
       (X-UA-Compatible으로써 문서 호환성 개념이 도입된다.)-->
   <meta http-equiv = "refresh" content = "3;url = Home.html">
   <title>Loading...</title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113449067-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113449067-1');
+</script>
 </head>
 <body>
   <header>
@@ -21,7 +30,7 @@
   </header>
   <article> <!--내용-->
     <p>3초 뒤에 본 페이지로 이동합니다.</p> <!--p는 단락을 뜻함.-->
-    <p>생활코딩 홈페이지로 이동하려면 <a href = "http://opentutorials.org/course/1">여기</a>
+    <p>생활코딩 홈페이지로 이동하려면 <strong><a href = "http://opentutorials.org/course/1">여기</a></strong>
       를 클릭하세요.</p> <!--a는 링크를 뜻함. / href 속성을 통해서 링크를 알려줌.-->
   </article>
 </body>

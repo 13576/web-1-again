@@ -3,6 +3,7 @@
   <head>
     <title>How to study (M)</title>
     <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113449067-1"></script>
   <script>
@@ -17,50 +18,69 @@
     <header>
       <h1><a href = "Home.html" title = "공부해!">Study Math!</a></h1>
     </header>
-    <nav>
-      <ol>
-        <li><a href = "1.html">뭘 사야 할까...</a></li>
-        <li><a href = "2.html">한 권만 풀어? 미쳤어?</a></li>
-        <li><a href = "3.html">개념을 공부하셨나요?</a></li>
-        <li><a href = "4.html">죽기 싫으면 문풀 보지마.</a></li>
-        <li><a href = "5.html">문제집 다 끝났다!</a></li>
-        <li><a href = "6.html">계획을 달성하려면...</a></li>
-      </ol>
-    </nav>
-    <article>
-      <h2>환영합니다!</h2>
-      <p>
-        이 웹사이트는 이 웹사이트를 만든 제작자가 운영하는 네이버 블로그에서 자신이 쓴 글을 이쁘장하게 정리한 정보를 담았습니다. <u>'수학을 어떻게 공부하느냐'</u>라는 주제를 가지고 설명하니까 잘 들어 주세요~
-      </p>
-      <p>
-        제작자의 블로그에 들어오고 싶으시면 <strong><a href = "https://blog.naver.com/happybox2?proxyReferer=https%3A%2F%2Fwww.naver.com%2F">여기</a></strong>를 클릭해 주세요!
-      </p>
-      <a href = "https://blog.naver.com/happybox2" target = "_blank"><img src = "blog.JPG" title = "블로그" width = "210"></a>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/aLC7Kmubw0Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      <p>
-        생활코딩 홈페이지로 이동하려면 <strong><a href = "https://opentutorials.org/course/1" target = "_blank" title = "생활코딩">여기</a></strong>를 클릭해 주세요!
-      </p>
-      <div id="disqus_thread"></div>
-<script>
+    <div id = "grid">
+      <nav>
+        <ol>
+          <li class = "first"><a href = "1.html">뭘 사야 할까...</a></li>
+          <li><a href = "2.html">한 권만 풀어? 미쳤어?</a></li>
+          <li><a href = "3.html">개념을 공부하셨나요?</a></li>
+          <li><a href = "4.html">죽기 싫으면 문풀 보지마.</a></li>
+          <li><a href = "5.html">문제집 다 끝났다!</a></li>
+          <li><a href = "6.html">계획을 달성하려면...</a></li>
+        </ol>
+      </nav>
+      <div id = "article">
+        <article>
+          <h2>환영합니다!</h2>
+          <p>
+            이 웹사이트는 이 웹사이트를 만든 제작자가 운영하는 네이버 블로그에서 자신이 쓴 글을 이쁘장하게 정리한 정보를 담았습니다. <u>'수학을 어떻게 공부하느냐'</u>라는 주제를 가지고 설명하니까 잘 들어 주세요~
+          </p>
+          <p id = "blog">
+            제작자의 블로그에 들어오고 싶으시면 <strong><a href = "https://blog.naver.com/happybox2?proxyReferer=https%3A%2F%2Fwww.naver.com%2F" title = "블로그" target = "_blank">여기</a></strong>를 클릭해 주세요!
+          </p>
+          <div id = "fixed">
+            <p>
+              <ul>
+                <li>채팅 기능 추가</li>
+                <li>댓글 기능 추가</li>
+                <li>디자인</li>
+                <li>로딩화면 추가</li>
+                <li>버그 수정</li>
+                <li>화면 크기에 따라서 디자인 변경</li>
+                <li>모든 링크는 새탭에서 열리도록 수정</li>
+              </ul>
+            </p>
+          </div>
+          <a href = "https://blog.naver.com/happybox2" target = "_blank">
+            <img src = "blog.JPG" title = "블로그" height = "315" width = "210" alt = "blog">
+          </a>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/aLC7Kmubw0Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <br><br><p id = "opentutorials">
+            생활코딩 홈페이지로 이동하려면 <strong><a href = "https://opentutorials.org/course/1" target = "_blank" title = "생활코딩">여기</a></strong>를 클릭해 주세요!
+          </p>
+        </article>
+      </div>
+    </div>
+    <div id="disqus_thread"></div>
+  <script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://how-to-study-m.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    </article>
+  /**
+  *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://how-to-study-m.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

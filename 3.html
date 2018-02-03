@@ -3,6 +3,7 @@
   <head>
     <title>Do you know...</title>
     <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113449067-1"></script>
   <script>
@@ -17,58 +18,65 @@
     <header>
       <h1><a href = "Home.html" title = "공부해!">Study Math!</a></h1>
     </header>
-    <nav>
-      <ol>
-        <li><a href = "1.html">뭘 사야 할까...</a></li>
-        <li><a href = "2.html">한 권만 풀어? 미쳤어?</a></li>
-        <li><a href = "3.html">개념을 공부하셨나요?</a></li>
-        <li><a href = "4.html">죽기 싫으면 문풀 보지마.</a></li>
-        <li><a href = "5.html">문제집 다 끝났다!</a></li>
-        <li><a href = "6.html">계획을 달성하려면...</a></li>
-      </ol>
-    </nav>
-    <article>
-      <h2>개념을 공부하셨나요?</h2>
-      <p>
-        공부를 하셨다고요? 그럼 증명을 해보셨나요?<br>
-    증명을 해보셨다고요? <del>그럼 이 개념이 나온 배경을 아시나요?</del><br>
-<br>
-<br>
-TV프로그램, 그러니까 초등학생을 위한 수학 개념을 설명해주는<br>
-EBS같은 채널을 둘러 보면<br>
-항상 무슨 개념을 설명할 때마다 역사적 탄생 배경을 설명합니다.<br>
-<strong>"왜 배워야 하냐고!"</strong><br>
-를 설명합니다.<br>
-<br>
-솔직히 배경까지 알면 동기 부여가 되서 공부가 되는데,<br>
-솔직히 찾아보기란 쉽지가 않은 과정입니다.<br>
-<br>
-<br>
-따라서 어떠한 수식이 만들어지는 배경을 우리가 직접<br>
-따라가 보자는 겁니다.<br>
-그러면 이 수식이 어떻게 만들어지는지 알게되고,<br>
-<ul>
-  <li>그 수식의 의미를 알게 되며,<br></li>
-  <li>기억도 훨씬 잘 납니다.<br></li>
-  <li>더군다나 증명이 보통 어떻게 이루어 지는지까지 확인할 수 있습니다.<br></li>
-</ul>
-<br>
-증명, 외워야 되냐고요?<br>
-외울 필요 없습니다. 그냥 외울 정도로 계속 시도만 해보세요.<br>
-그리고 이 수식의 뜻을 어느정도 이해했다 싶을 때<br>
-그 때 문제를 풀기 시작하세요.<br>
-<br>
-이렇게 증명을 의식하다보면 문제 풀다가,<br>
-"어? 점과 직선 사이의 거리 공식이 어떻게 생겼는지 까먹었다!"<br>
-했을 때 한번 증명하면 오래 갑니다.<br>
-<br>
-개념은 증명을 했을 때 배웠다고 하는 겁니다.
-      </p>
-      <br>
-      <p>
-        생활코딩 홈페이지로 이동하려면 <strong><a href = "https://opentutorials.org/course/1" target = "_blank" title = "생활코딩">여기</a></strong>를 클릭해 주세요!
-      </p>
-      <div id="disqus_thread"></div>
+    <div id = "grid">
+      <nav>
+        <ol>
+          <li class = "first"><a href = "1.html">뭘 사야 할까...</a></li>
+          <li><a href = "2.html">한 권만 풀어? 미쳤어?</a></li>
+          <li><a href = "3.html">개념을 공부하셨나요?</a></li>
+          <li><a href = "4.html">죽기 싫으면 문풀 보지마.</a></li>
+          <li><a href = "5.html">문제집 다 끝났다!</a></li>
+          <li><a href = "6.html">계획을 달성하려면...</a></li>
+        </ol>
+      </nav>
+      <div id = "article">
+        <article>
+          <h2>개념을 공부하셨나요?</h2>
+          <p>
+            공부를 하셨다고요? 그럼 증명을 해보셨나요?<br>
+        증명을 해보셨다고요? <del>그럼 이 개념이 나온 배경을 아시나요?</del><br>
+    <br>
+    <br>
+    TV프로그램, 그러니까 초등학생을 위한 수학 개념을 설명해주는<br>
+    EBS같은 채널을 둘러 보면<br>
+    항상 무슨 개념을 설명할 때마다 역사적 탄생 배경을 설명합니다.<br>
+    <strong>"왜 배워야 하냐고!"</strong><br>
+    를 설명합니다.<br>
+    <br>
+    솔직히 배경까지 알면 동기 부여가 되서 공부가 되는데,<br>
+    솔직히 찾아보기란 쉽지가 않은 과정입니다.<br>
+    <br>
+    <br>
+    따라서 어떠한 수식이 만들어지는 배경을 우리가 직접<br>
+    따라가 보자는 겁니다.<br>
+    그러면 이 수식이 어떻게 만들어지는지 알게되고,<br>
+  </p>
+    <ul id = "knowledge">
+      <li>그 수식의 의미를 알게 되며,<br></li>
+      <li>기억도 훨씬 잘 납니다.<br></li>
+      <li>더군다나 증명이 보통 어떻게 이루어 지는지까지 확인할 수 있습니다.<br></li>
+    </ul>
+  <p>
+    <br>
+    증명, 외워야 되냐고요?<br>
+    외울 필요 없습니다. 그냥 외울 정도로 계속 시도만 해보세요.<br>
+    그리고 이 수식의 뜻을 어느정도 이해했다 싶을 때<br>
+    그 때 문제를 풀기 시작하세요.<br>
+    <br>
+    이렇게 증명을 의식하다보면 문제 풀다가,<br>
+    "어? 점과 직선 사이의 거리 공식이 어떻게 생겼는지 까먹었다!"<br>
+    했을 때 한번 증명하면 오래 갑니다.<br>
+    <br>
+    개념은 증명을 했을 때 배웠다고 하는 겁니다.
+          </p>
+          <br>
+          <br><p id = "opentutorials">
+            생활코딩 홈페이지로 이동하려면 <strong><a href = "https://opentutorials.org/course/1" target = "_blank" title = "생활코딩">여기</a></strong>를 클릭해 주세요!
+          </p>
+        </article>
+      </div>
+    </div>
+    <div id="disqus_thread"></div>
 <script>
 
 /**

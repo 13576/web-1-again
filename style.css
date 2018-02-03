@@ -1,0 +1,140 @@
+html body {
+  margin : 10px;
+  margin-top : 0px;
+}
+html body header h1 {
+  margin : 0px;
+  border-bottom : 5px solid gray;
+  padding : 70px;
+  font-size : 50px;
+  text-align : center;
+}
+html body header h1 a {
+  color : orangered;
+  text-decoration-line : none;
+}
+html body header h1 a:hover {
+  color : red;
+  text-decoration : underline;
+}
+html body header h1 a:active {
+  color : blue;
+}
+html body nav {
+  border-right : 5px solid gray;
+}
+html body nav ol {
+  width : 290px;
+  margin : 0px;
+}
+html body nav ol li {
+  font-size : 25px;
+  margin-top : 40px;
+  margin-bottom : 40px;
+}
+html body nav ol li a {
+  text-decoration : none;
+}
+html body nav ol li a:link {
+  color : orange;
+}
+html body nav ol li a:visited {
+  color : gray;
+}
+html body nav ol li a:hover {
+  color : red;
+  text-decoration : underline;
+}
+html body nav ol li a:active {
+  color : blue;
+}
+html body nav ol .first {
+  padding-top : 10px;
+}
+html body #grid {
+  display : grid;
+  grid-template-columns : 350px 1fr;
+}
+html body #grid #article {
+  padding-left : 50px;
+}
+html body #grid #article article h2 {
+  margin : 50px;
+  margin-left : 0px;
+  font-size : 35px;
+}
+html body #grid #article article p {
+  font-size : 20px;
+  margin-top : 25px;
+  margin-bottom : 25px;
+  line-height : 1.6;
+}
+html body #grid #article article #knowledge {
+  list-style-type : square;
+}
+html body #grid #article article ul li {
+  font-size : 20px;
+  line-height : 1.6;
+}
+html body #grid #article article #blog strong a {
+  color : orange;
+}
+html body #grid #article article #blog strong a:hover {
+  color : red;
+}
+html body #grid #article article #blog strong a:active {
+  color : blue;
+}
+html body #grid #article article #fixed ul li {
+  font-size : 17px;
+  padding-top : 10px;
+  padding-bottom : 10px;
+}
+html body #grid #article article a img {
+  float : left;
+  padding-right : 20px;
+}
+html body #grid #article article #opentutorials {
+  text-align : center;
+}
+html body #grid #article article #opentutorials strong a {
+  color : orange;
+}
+html body #grid #article article #opentutorials strong a:hover {
+  color : red;
+}
+html body #grid #article article #opentutorials strong a:active {
+  color : blue;
+}
+@media (max-width : 1230px) {
+  html body #grid #article article a img {
+    margin-bottom : 20px;
+    margin-left : auto;
+    margin-right : auto;
+    padding : 0px;
+    display : block;
+    float : none;
+  }
+  html body #grid #article article iframe {
+    margin-left : auto;
+    margin-right : auto;
+    display : block;
+  }
+}
+@media (max-width : 1000px) {
+  html body header h1 {
+    text-align : left;
+  }
+  html body #grid {
+    display : block
+  }
+  html body #grid nav {
+    border : 0px;
+    padding-top : 30px;
+    padding-bottom : 50px;
+    border-bottom : 5px gray solid;
+  }
+  html body #grid nav ol {
+    padding-left : 100px;
+  }
+}

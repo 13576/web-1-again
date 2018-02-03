@@ -3,6 +3,7 @@
   <head>
     <title>Don't touch.</title>
     <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113449067-1"></script>
   <script>
@@ -17,50 +18,55 @@
     <header>
       <h1><a href = "Home.html" title = "공부해!">Study Math!</a></h1>
     </header>
-    <nav>
-      <ol>
-        <li><a href = "1.html">뭘 사야 할까...</a></li>
-        <li><a href = "2.html">한 권만 풀어? 미쳤어?</a></li>
-        <li><a href = "3.html">개념을 공부하셨나요?</a></li>
-        <li><a href = "4.html">죽기 싫으면 문풀 보지마.</a></li>
-        <li><a href = "5.html">문제집 다 끝났다!</a></li>
-        <li><a href = "6.html">계획을 달성하려면...</a></li>
-      </ol>
-    </nav>
-    <article>
-      <h2>죽기 싫으면 문풀 보지마.</h2>
-      <p>
-        각 문제는 각자 특징을 가지고 있습니다.<br>
-절대 같은 성질(특징, 유형...은 아니고)의 문제는<br>
-시험이나 문제집에 나오지 않습니다.<br>
-나온다면... 그게 사실은 개념 확인 문제라던가,<br>
-같은 유형랍시고 붙여놓은 문제나<br>
-다른 곳에서 들고 온 문제여서 여러번 접하는 것이겠지요.<br>
-<br>
-따라서 각 문제의 특성에 맞게 문제를 풀이하지 못한다면<br>
-그 문제들은 아직 '못 푸는 문제'지만,<br>
-못 풀어서 풀이를 보게 되면<br>
-그 문제들은 이제 '푸는게 불가능에 가까운 문제'가 됩니다.<br>
-하지만 기어이 문제를 혼자 힘으로 풀면<br>
-그 문제들은 이제 '잘 푸는 문제'가 됩니다.<br>
-그리고 못 풀어도 계속해서 시도하다 안되서<br>
-내가 기본으로 생각한 풀이와 문제집의 풀이가 다르면<br>
-내 뺨 100대를 때리겠다는 각오로 풀이를 보면<br>
-(때리지 마요 ㅠㅠ 더 허무해져요...)<br>
-아니, 풀이의 첫번째 줄을 보고 풀어서 풀리면<br>
-그 문제들은 이제 '누구보다 잘 푸는 문제'가 됩니다.<br>
-<br>
-직접 풀이를 보고 한 문제를 버린 사람의 조언으로서,<br>
-<u>"자괴감 느끼기 싫으면 풀이는 정답 체크할 때만 봅시다! ^^"</u><br>
-<br>
-(또 정답 보고 풀이 유추하는 학생들 있어 ㅠㅠ<br>
- 왜 사니... 정말... 문제 왜 푸니...)
-      </p>
-      <br>
-      <p>
-        생활코딩 홈페이지로 이동하려면 <strong><a href = "https://opentutorials.org/course/1" target = "_blank" title = "생활코딩">여기</a></strong>를 클릭해 주세요!
-      </p>
-      <div id="disqus_thread"></div>
+    <div id = "grid">
+      <nav>
+        <ol>
+          <li class = "first"><a href = "1.html">뭘 사야 할까...</a></li>
+          <li><a href = "2.html">한 권만 풀어? 미쳤어?</a></li>
+          <li><a href = "3.html">개념을 공부하셨나요?</a></li>
+          <li><a href = "4.html">죽기 싫으면 문풀 보지마.</a></li>
+          <li><a href = "5.html">문제집 다 끝났다!</a></li>
+          <li><a href = "6.html">계획을 달성하려면...</a></li>
+        </ol>
+      </nav>
+      <div id = "article">
+        <article>
+          <h2>죽기 싫으면 문풀 보지마.</h2>
+          <p>
+            각 문제는 각자 특징을 가지고 있습니다.<br>
+    절대 같은 성질(특징, 유형...은 아니고)의 문제는<br>
+    시험이나 문제집에 나오지 않습니다.<br>
+    나온다면... 그게 사실은 개념 확인 문제라던가,<br>
+    같은 유형랍시고 붙여놓은 문제나<br>
+    다른 곳에서 들고 온 문제여서 여러번 접하는 것이겠지요.<br>
+    <br>
+    따라서 각 문제의 특성에 맞게 문제를 풀이하지 못한다면<br>
+    그 문제들은 아직 '못 푸는 문제'지만,<br>
+    못 풀어서 풀이를 보게 되면<br>
+    그 문제들은 이제 '푸는게 불가능에 가까운 문제'가 됩니다.<br>
+    하지만 기어이 문제를 혼자 힘으로 풀면<br>
+    그 문제들은 이제 '잘 푸는 문제'가 됩니다.<br>
+    그리고 못 풀어도 계속해서 시도하다 안되서<br>
+    내가 기본으로 생각한 풀이와 문제집의 풀이가 다르면<br>
+    내 뺨 100대를 때리겠다는 각오로 풀이를 보면<br>
+    (때리지 마요 ㅠㅠ 더 허무해져요...)<br>
+    아니, 풀이의 첫번째 줄을 보고 풀어서 풀리면<br>
+    그 문제들은 이제 '누구보다 잘 푸는 문제'가 됩니다.<br>
+    <br>
+    직접 풀이를 보고 한 문제를 버린 사람의 조언으로서,<br>
+    <u>"자괴감 느끼기 싫으면 풀이는 정답 체크할 때만 봅시다! ^^"</u><br>
+    <br>
+    (또 정답 보고 풀이 유추하는 학생들 있어 ㅠㅠ<br>
+     왜 사니... 정말... 문제 왜 푸니...)
+          </p>
+          <br>
+          <br><p id = "opentutorials">
+            생활코딩 홈페이지로 이동하려면 <strong><a href = "https://opentutorials.org/course/1" target = "_blank" title = "생활코딩">여기</a></strong>를 클릭해 주세요!
+          </p>
+        </article>
+      </div>
+    </div>
+    <div id="disqus_thread"></div>
 <script>
 
 /**

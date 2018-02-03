@@ -3,6 +3,7 @@
   <head>
     <title>Only one?</title>
     <meta charset = "utf-8">
+    <link rel = "stylesheet" href = "style.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113449067-1"></script>
   <script>
@@ -17,46 +18,51 @@
     <header>
       <h1><a href = "Home.html" title = "공부해!">Study Math!</a></h1>
     </header>
-    <nav>
-      <ol>
-        <li><a href = "1.html">뭘 사야 할까...</a></li>
-        <li><a href = "2.html">한 권만 풀어? 미쳤어?</a></li>
-        <li><a href = "3.html">개념을 공부하셨나요?</a></li>
-        <li><a href = "4.html">죽기 싫으면 문풀 보지마.</a></li>
-        <li><a href = "5.html">문제집 다 끝났다!</a></li>
-        <li><a href = "6.html">계획을 달성하려면...</a></li>
-      </ol>
-    </nav>
-    <article>
-      <h2>한 권만 풀어? 미쳤어?</h2>
-      <p>
-        상식적으로 생각해 봅시다.<br>
-우리가 수업을 들어요.<br>
-그 수업을 한 번 잠 자고 일어나서 그 다음날에 떠올려 봅시다.<br>
-잘 떠올려 지시나요?<br>
-<br>
-(1년 뒤...)<br>
-<br>
-지금도 잘 떠올려 지시나요?<br>
-솔직히 1년 뒤에도 잘 떠올려 지는 천재가 어디있어요,<br>
-아무리 집중해도 말이지...<br>
-<br>
-<br>
-공부도 마찬가지로, 반복을 적어도 2번을 해야 합니다.<br>
-시험공부 해보셨어요? 제대로요?<br>
-시험공부 원래는 3번 이상이 정석인데,<br>
-벼락치기를 제가 워낙 좋아해서, 일주일에 한번씩 총 2번 루프를 돕니다.<br>
-그래서 문제집도 2권씩 푸는 것을 좋아하는데,<br>
-<br>
-그럼, 까먹지 않기 위해서 평생을 반복해야 되냐?<br>
-아니에요... 그 다음 과정에서 계속 써먹을 개념이라서<br>
-기억을 안 떠올리려고 해도 몇번 반복하면 기억이 납니다.
-      </p>
-      <br>
-      <p>
-        생활코딩 홈페이지로 이동하려면 <strong><a href = "https://opentutorials.org/course/1" target = "_blank" title = "생활코딩">여기</a></strong>를 클릭해 주세요!
-      </p>
-      <div id="disqus_thread"></div>
+    <div id = "grid">
+      <nav>
+        <ol>
+          <li class = "first"><a href = "1.html">뭘 사야 할까...</a></li>
+          <li><a href = "2.html">한 권만 풀어? 미쳤어?</a></li>
+          <li><a href = "3.html">개념을 공부하셨나요?</a></li>
+          <li><a href = "4.html">죽기 싫으면 문풀 보지마.</a></li>
+          <li><a href = "5.html">문제집 다 끝났다!</a></li>
+          <li><a href = "6.html">계획을 달성하려면...</a></li>
+        </ol>
+      </nav>
+      <div id = "article">
+        <article>
+          <h2>한 권만 풀어? 미쳤어?</h2>
+          <p>
+            상식적으로 생각해 봅시다.<br>
+    우리가 수업을 들어요.<br>
+    그 수업을 한 번 잠 자고 일어나서 그 다음날에 떠올려 봅시다.<br>
+    잘 떠올려 지시나요?<br>
+    <br>
+    (1년 뒤...)<br>
+    <br>
+    지금도 잘 떠올려 지시나요?<br>
+    솔직히 1년 뒤에도 잘 떠올려 지는 천재가 어디있어요,<br>
+    아무리 집중해도 말이지...<br>
+    <br>
+    <br>
+    공부도 마찬가지로, 반복을 적어도 2번을 해야 합니다.<br>
+    시험공부 해보셨어요? 제대로요?<br>
+    시험공부 원래는 3번 이상이 정석인데,<br>
+    벼락치기를 제가 워낙 좋아해서, 일주일에 한번씩 총 2번 루프를 돕니다.<br>
+    그래서 문제집도 2권씩 푸는 것을 좋아하는데,<br>
+    <br>
+    그럼, 까먹지 않기 위해서 평생을 반복해야 되냐?<br>
+    아니에요... 그 다음 과정에서 계속 써먹을 개념이라서<br>
+    기억을 안 떠올리려고 해도 몇번 반복하면 기억이 납니다.
+          </p>
+          <br>
+          <br><p id = "opentutorials">
+            생활코딩 홈페이지로 이동하려면 <strong><a href = "https://opentutorials.org/course/1" target = "_blank" title = "생활코딩">여기</a></strong>를 클릭해 주세요!
+          </p>
+        </article>
+      </div>
+    </div>
+    <div id="disqus_thread"></div>
 <script>
 
 /**
